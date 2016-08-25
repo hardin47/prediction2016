@@ -24,11 +24,11 @@ require(RJSONIO)
 
 ## ASA's Prediction Competition
 
-In this election year, the American Statistical Association (ASA) has put together a competition for students to predict the exact percentages for the winner of the 2016 presidential election. They are offering cash prizes for the entry that gets closest to both the national and state vote percentages.  For more details see:
+In this election year, the American Statistical Association (ASA) has put together a competition for students to predict the exact percentages for the winner of the 2016 presidential election. They are offering cash prizes for the entry that gets closest to the national vote percentage and that best predicts the winners for each state and the District of Columbia.  For more details see:
 
 http://thisisstatistics.org/electionprediction2016/
 
-To get you started, I've written an analysis of data scraped from fivethirtyeight.com.   The analysis uses weighted means and a formula for the SE of a weighted mean.  For your analysis, you might consider a similar analysis on the state data (what assumptions would you make for a new weight funciton?).  Or you might try some kind of model - either a generalized linear model or a Bayesian analysis with an informed prior.  The world is your oyster!
+To get you started, I've written an analysis of data scraped from fivethirtyeight.com.   The analysis uses weighted means and a formula for the standard error (SE) of a weighted mean.  For your analysis, you might consider a similar analysis on the state data (what assumptions would you make for a new weight funciton?).  Or you might try some kind of model - either a generalized linear model or a Bayesian analysis with an informed prior.  The world is your oyster!
 
 ## Getting the Data
 
